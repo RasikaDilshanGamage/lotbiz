@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #0f1012;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navMenuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.navMenu {
+  margin: 0 10px;
+}
+
+.mainLogo img {
+  width: 150px;
+}
+
+.quoteBtn {
+  background-color: #8EEDF7;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.heroScetion {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.heroAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.heroAbout h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.heroAbout h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.heroAbout p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.heroBtn {
+  background-color: #8EEDF7;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+
+.heroImage {
+  width: 700px;
+}
